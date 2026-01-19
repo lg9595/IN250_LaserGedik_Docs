@@ -80,3 +80,21 @@ In der Datei habe ich festgelegt, dass:
 - die Datei `GeheimeBankInformationen.txt` nicht von Git versioniert wird
 
 Anschliessend habe ich die `.gitignore` Datei gespeichert, einen Commit mit der Nachricht **Add gitignore** erstellt und die Änderungen auf GitHub hochgeladen.
+
+---
+
+## Zweites lokales Repository mit git init und Remote verbinden
+
+Für diese Aufgabe habe ich einen zweiten lokalen Ordner erstellt und darin ein neues Git Repository initialisiert.
+
+### Vorgehen
+1. Neuen Ordner erstellt (zweites lokales Arbeitsverzeichnis)
+2. In VS Code geöffnet und im Terminal `git init` ausgeführt
+3. Das Remote Repository (GitHub) als `origin` gesetzt
+4. Danach versucht, das lokale Repository mit dem Remote zu synchronisieren (`git fetch` / `git pull`)
+
+### Beobachtung
+Das neue lokale Repository hatte am Anfang eine andere bzw. leere Historie als das Repository auf GitHub. Beim Synchronisieren gab es deshalb eine Meldung, dass die Historien nicht direkt zusammenpassen bzw. dass ein Merge nicht automatisch möglich ist.
+
+### Was passiert, wenn im alten Ordner vorher gepushed wurde
+Wenn ich im alten Ordner die Änderungen bereits auf GitHub gepushed habe, enthält das Remote Repository den aktuellen Stand. Beim Synchronisieren im neuen Ordner werden diese Änderungen vom Remote geholt. Wenn im neuen Ordner bereits Dateien mit gleichem Namen existieren, können Merge Konflikte entstehen.
