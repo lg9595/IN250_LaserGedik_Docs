@@ -55,3 +55,17 @@ Dazu bin ich wie folgt vorgegangen:
 5. Das Repository anschliessend in VS Code geöffnet
 
 Nach dem Klonen war das Repository lokal verfügbar und ich konnte mit der Datei `git_basics.md` weiterarbeiten.
+
+---
+
+## Markdown Cheatsheet ins Repository kopieren
+
+Für diese Aufgabe habe ich mein zuvor erstelltes Markdown Cheatsheet in den Ordner meines geklonten Git Repositories kopiert.
+
+Dabei bin ich wie folgt vorgegangen:
+1. Ich habe die Datei `markdown_basics.md` aus ihrem ursprünglichen Speicherort kopiert
+2. Die Datei in den Ordner des geklonten Repositories eingefügt
+3. In VS Code überprüft, dass die Datei als Änderung erkannt wird
+4. Die Datei gestaged und einen Commit mit der Nachricht **Initial commit** erstellt
+5. Die Änderungen anschliessend auf GitHub hochgeladen
+
