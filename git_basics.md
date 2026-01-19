@@ -98,3 +98,23 @@ Das neue lokale Repository hatte am Anfang eine andere bzw. leere Historie als d
 
 ### Was passiert, wenn im alten Ordner vorher gepushed wurde
 Wenn ich im alten Ordner die Änderungen bereits auf GitHub gepushed habe, enthält das Remote Repository den aktuellen Stand. Beim Synchronisieren im neuen Ordner werden diese Änderungen vom Remote geholt. Wenn im neuen Ordner bereits Dateien mit gleichem Namen existieren, können Merge Konflikte entstehen.
+
+---
+
+## Aufgabe 6: Warum Git in der Softwareentwicklung wichtig ist
+
+Git wird in der Softwareentwicklung verwendet, um Änderungen am Code nachvollziehbar zu speichern. Jeder Stand eines Projekts kann mit einem Commit festgehalten werden. Dadurch ist es möglich, frühere Versionen wiederherzustellen, Fehler nachzuvollziehen und Änderungen von verschiedenen Personen sauber zusammenzuführen.
+
+Ein weiterer Vorteil von Git ist die Zusammenarbeit im Team. Mehrere Entwickler können gleichzeitig am gleichen Projekt arbeiten, ohne sich gegenseitig zu überschreiben. Git hilft dabei, Änderungen zu vergleichen und Konflikte kontrolliert zu lösen.
+
+Git sorgt ausserdem für Sicherheit, da der Code nicht nur lokal gespeichert ist, sondern auch auf einem Remote Repository wie GitHub. Dadurch geht Arbeit nicht verloren, wenn ein Computer ausfällt oder beschädigt wird.
+
+---
+
+## Warum bei einem Feuer zuerst Git Commit und Git Push erfolgen sollten
+
+Das Beispiel mit dem Feuer soll zeigen, wie wichtig Versionskontrolle ist. Ein Commit speichert den aktuellen Stand des Projekts lokal. Ein Push lädt diesen Stand zusätzlich auf das Remote Repository hoch.
+
+Wenn zuerst ein Commit und danach ein Push gemacht wird, ist der aktuelle Stand des Projekts sicher auf GitHub gespeichert. Selbst wenn der Computer danach zerstört wird, kann der Code jederzeit wiederhergestellt werden.
+
+Ohne Commit und Push wären die letzten Änderungen nur lokal vorhanden und könnten verloren gehen. Das Beispiel verdeutlicht, dass Git nicht nur für Organisation, sondern auch für Datensicherheit wichtig ist.
