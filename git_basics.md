@@ -118,3 +118,4 @@ Das Beispiel mit dem Feuer soll zeigen, wie wichtig Versionskontrolle ist. Ein C
 Wenn zuerst ein Commit und danach ein Push gemacht wird, ist der aktuelle Stand des Projekts sicher auf GitHub gespeichert. Selbst wenn der Computer danach zerstört wird, kann der Code jederzeit wiederhergestellt werden.
 
 Ohne Commit und Push wären die letzten Änderungen nur lokal vorhanden und könnten verloren gehen. Das Beispiel verdeutlicht, dass Git nicht nur für Organisation, sondern auch für Datensicherheit wichtig ist.
+
