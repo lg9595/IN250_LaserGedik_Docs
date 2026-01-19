@@ -69,3 +69,14 @@ Dabei bin ich wie folgt vorgegangen:
 4. Die Datei gestaged und einen Commit mit der Nachricht **Initial commit** erstellt
 5. Die Änderungen anschliessend auf GitHub hochgeladen
 
+---
+
+## Gitignore Datei erstellen
+
+Für diese Aufgabe habe ich eine `.gitignore` Datei in meinem Git Repository erstellt.
+
+In der Datei habe ich festgelegt, dass:
+- alle Dateien mit der Endung `.log` ignoriert werden
+- die Datei `GeheimeBankInformationen.txt` nicht von Git versioniert wird
+
+Anschliessend habe ich die `.gitignore` Datei gespeichert, einen Commit mit der Nachricht **Add gitignore** erstellt und die Änderungen auf GitHub hochgeladen.
